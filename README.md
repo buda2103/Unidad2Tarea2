@@ -8,6 +8,7 @@ Desarrollar una página web básica como práctica del flujo de trabajo con Git 
 - **Evelyn Barrientos** - Documentador
 - **Juan Robledo** - Integrador
 - **Angel Perez** - Diseñador
+ - **Leobardo Quintero** - Diseñador
 
 ##  Flujo de trabajo usado
 1. Rama `main`: versión estable del proyecto.
