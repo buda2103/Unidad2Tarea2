@@ -17,4 +17,4 @@ Desarrollar una página web básica como práctica del flujo de trabajo con Git 
 5. Resolución de conflictos y aprobación de PR.
 
 ## 🔗 Link al repositorio
-[https://github.com/usuario/proyecto-web-basico](https://github.com/usuario/proyecto-web-basico)
+https://github.com/buda2103/Unidad2Tarea2.git
