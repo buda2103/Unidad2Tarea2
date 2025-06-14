@@ -2,11 +2,53 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Proyecto Web Básico</title>
-  <link rel="stylesheet" href="css/estilos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reloj Mundial Interactivo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@600&display=swap">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <h1>Bienvenidos al Proyecto Web</h1>
-  <p>Este es un proyecto de ejemplo.</p>
+  <div class="contenedor">
+    <header class="cabecera">
+      <h1>🌍 Reloj Mundial</h1>
+      <p class="subtitulo">Visualiza la hora en diferentes zonas horarias</p>
+    </header>
+
+    <main class="contenido-principal">
+      <div class="tarjeta">
+        <div class="reloj" id="reloj-local">
+          <h2>Tu Localización</h2>
+          <div class="tiempo" id="tiempo-local">00:00:00</div>
+          <div class="fecha" id="fecha-local">1 de enero de 2023</div>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <div class="reloj" id="reloj-nueva-york">
+          <h2>Nueva York</h2>
+          <div class="tiempo">00:00:00</div>
+          <div class="fecha">1 de enero de 2023</div>
+        </div>
+      </div>
+
+      <div class="selector-zonas">
+        <select id="selector-zona">
+          <option value="">Selecciona una zona horaria</option>
+          <option value="Europe/London">Londres</option>
+          <option value="Asia/Tokyo">Tokio</option>
+          <option value="America/Santiago">Santiago</option>
+        </select>
+      </div>
+    </main>
+
+    <footer class="pie-pagina">
+      <p>© 2023 Proyecto de Equipo | 
+        <a href="#" class="enlace">GitHub</a> | 
+        <a href="#" class="enlace">Documentación</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
